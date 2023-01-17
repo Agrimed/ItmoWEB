@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Montserrat-VariableFont_wght, serif;
+}
+
+.first-pic {
+    float: left;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    margin-right: 120px;
+    padding-top: 45px;
+}
+
+.head-items {
+    margin-right: 60px;
+}
+
+nav.head-items {
+    color: #156963;
+    font-family: Nunito, serif;
+}
+
+.sign-in {
+    border: 10px solid #156963;
+    background: #156963;
+    color: white;
+    font-family: Nunito, serif;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 200px;
+    padding: 120px 70px;
+}
+
+.intro-text-big {
+    color: #156963;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+p.intro-text-big {
+    margin: 0;
+}
+
+.intro-text-small {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+p.intro-text-small {
+    margin: 24px 0;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 55px 20px;
+    padding-top: 100px;
+}
+
+.single-advantage {
+    border: 1px solid #E0E0E0;
+    width: 268px;
+    height: auto;
+    margin: 20px auto auto;
+}
+
+.on-sale {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.on-sale-plants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    border-top: 3px solid #E0E0E0;
+    padding-top: 50px;
+}
+
+.plant-item{
+    margin: 20px auto;
+}
+
+.plant-image{
+    width: 217px;
+    height: 217px;
+    margin: auto 0;
+}
+
+.plant-name{
+    font-size: 16px;
+}
+
+.plant-cost{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.featured{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.prelast-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.pt{
+    padding-top: 80px;
+}
+
+.size{
+    width: 100%;
+    height: auto;
+}
+
+.prelast-block-item{
+    padding-left: 40px;
+    margin-top: 20px;
+    width: 45%;
+    height: auto;
+}
+
+.prelast-block-big-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.prelast-block-small-text{
+    font-size: 16px;
+}
+
+.last-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 55px 80px;
+    position: relative;
+    background: #F3F4F6;
+    align-items: center;
+}
+
+.last-block-item{
+    margin: 20px auto;
+}
+
+.last-block-middle-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 100px;
+    text-align: center;
+}
+
+.last-block-small-text{
+    margin-left: 100px;
+    color: #FFFFFF;
+    border: 10px solid #156963;
+    background: #156963;
+    font-family: Nunito, serif;
+}
+
+footer{
+    margin-top: 60px;
+    border-top: 3px solid #E0E0E0;
+    padding: 60px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-colored-button{
+    font-size: 8px;
+    margin: 14px 0;
+    color: #FFFFFF;
+    border: 10px solid #156963;
+    background: #156963;
+    font-family: Nunito, serif;
+}
+
+.footer-item{
+    margin-top: 20px;
+    font-family: 'Work Sans', serif;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.footer-item h3{
+    font-weight: bold;
+}
+
+.footer-item h2{
+    font-weight: bold;
+    font-family: 'Poppins', serif;
+    color: #156963;
+}
+
+.footer-item p{
+    font-size: 14px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #cccccc;
+    color: #534f4f;
+    width: 100%;
+}
+
+@media (max-width: 816px) {
+    .prelast-block-item{
+        width: 100%;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .last-block-item{
+        text-align: center;
+    }
+}
