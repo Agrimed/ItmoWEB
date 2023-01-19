@@ -1,5 +1,5 @@
 <?php
-require_once "fileutils.php";
+require_once "data/appcontent.php";
 ?>
 
 <h3>Букет</h3>
@@ -14,14 +14,15 @@ require_once "fileutils.php";
     </thead>
     <tbody>
         <?php
+            $flowers = $repo->getAll();
             $number = 1;
-            foreach ($bundle as $flower) {
-                $id = $flower->getAttribute('id');
+            foreach ($flowers as $flower) {
+                $id = $flower->id;
                 echo '<tr>';
                 print_r('<td>'. $number++. '</td>');
-                print_r('<td>'. $flower->getAttribute('name'). '</td>');
-                print_r('<td>'. $flower->getAttribute('price'). '</td>');
-                print_r('<td>'. $flower->getAttribute('desc'). '</td>');
+                print_r('<td>'. $flower->name . '</td>');
+                print_r('<td>'. $flower->price . '</td>');
+                print_r('<td>'. $flower->desc . '</td>');
                 print_r("<td>
                             <a href='update.php?id=$id'>
                             <img src='edit.png'>
